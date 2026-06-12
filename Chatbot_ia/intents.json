@@ -1,0 +1,51 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "buenos dias", "buenas tardes"],
+      "responses": ["Hola, ¿cómo puedo ayudarte?"]
+    },
+
+    {
+      "tag": "nombre",
+      "patterns": ["quien eres", "como te llamas"],
+      "responses": ["Soy un chatbot desarrollado con Python y Flask."]
+    },
+
+    {
+      "tag": "servicios",
+      "patterns": ["que servicios ofrecen", "servicios"],
+      "responses": ["Ofrecemos asesoría informática y desarrollo web."]
+    },
+
+    {
+      "tag": "ubicacion",
+      "patterns": ["donde estan", "ubicacion"],
+      "responses": ["Nos encontramos en Tepic, Nayarit."]
+    },
+
+    {
+      "tag": "horario",
+      "patterns": ["horario", "a que hora abren"],
+      "responses": ["Nuestro horario es de lunes a viernes de 8:00 a.m. a 4:00 p.m."]
+    },
+
+    {
+      "tag": "telefono",
+      "patterns": ["telefono", "numero telefonico"],
+      "responses": ["Puedes comunicarte al 311-123-4567."]
+    },
+
+    {
+      "tag": "correo",
+      "patterns": ["correo", "email"],
+      "responses": ["Puedes escribirnos a contacto@empresa.com"]
+    },
+
+    {
+      "tag": "despedida",
+      "patterns": ["adios", "hasta luego"],
+      "responses": ["Gracias por utilizar el chatbot."]
+    }
+  ]
+}
